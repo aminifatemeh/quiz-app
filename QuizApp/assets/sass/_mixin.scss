@@ -1,0 +1,117 @@
+@mixin font-style($font-family, $font-size, $font-weight, $line-height, $text-align) {
+  font-family: $font-family;
+  font-size: $font-size;
+  font-weight: $font-weight;
+  line-height: $line-height;
+  text-align: $text-align;
+}
+
+
+
+.title-4 {
+  &.center{
+    @include font-style(IRANSansXFaNum, 14px, 700, 28px, center);
+  }
+  &.right{
+    @include font-style(IRANSansXFaNum, 14px, 700, 28px, right);
+  }
+}
+
+.title-1{
+  &.center{
+    @include font-style(IRANSansXFaNum, 20px, 800, 30px, center);
+  }
+  &.right{
+    @include font-style(IRANSansXFaNum, 20px, 800, 30px, right);
+  }
+}
+.subtitle-1 {
+  &.right{
+    @include font-style(IRANSansXFaNum, 14px, 500, 28px, right);
+  }
+  &.center{
+    @include font-style(IRANSansXFaNum, 14px, 500, 28px, center);
+  }
+}
+
+
+.heading-2 {
+  &.center{
+    @include font-style(IRANYekanXFaNum, 32px, 900, 64px, center);
+  }
+  &.right{
+    @include font-style(IRANYekanXFaNum, 32px, 900, 64px, right);
+  }
+}
+
+.heading-3{
+  &.right{
+    @include font-style(IRANYekanXFaNum, 28px, 900, 56px, right);
+  }
+}
+
+.heading-4{
+  &.right{
+    @include font-style(IRANYekanXFaNum, 24px, 900, 48px, right);
+  }
+}
+
+.heading-5{
+  &.right{
+    @include font-style(IRANYekanXFaNum, 22px, 900, 33px, right);
+  }
+  &.center{
+    @include font-style(IRANYekanXFaNum, 22px, 900, 33px, center);
+  }
+}
+
+.heading-6{
+  &.right{
+    @include font-style(IRANYekanXFaNum, 18px, 900, 36px, right);
+  }
+}
+
+
+.title-2 {
+  @include font-style(IRANSansXFaNum, 18px, 700, 36px, right);
+}
+
+
+.title-3 {
+  &.right{
+    @include font-style(IRANSansXFaNum, 16px, 700, 32px, right);
+  }
+
+  &.center{
+    @include font-style(IRANSansXFaNum, 16px, 700, 24px, center);
+  }
+}
+
+.meta-2{
+  @include font-style(IRANSansXFaNum, 14px, 700, 33.6px, right)
+}
+
+.meta-1 {
+  &.right{
+    @include font-style(IRANSansXFaNum, 14px, 700, 21px, right);
+  }
+  &.center{
+    @include font-style(IRANSansXFaNum, 14px, 500, 21px, center);
+  }
+}
+.meta-3{
+  &.right{
+    @include font-style(IRANSansXFaNum, 14px, 500, 21px, right);
+  }
+}
+.body{
+  &.right{
+    @include font-style(IRANSansXFaNum, 16px, 500, 32px, right)
+  }
+}
+.body-2{
+  &.right{
+    @include font-style(IRANSansXFaNum, 16px, 500, 24px, right)
+  }
+}
+
